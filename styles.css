@@ -1,0 +1,41 @@
+.header-container {
+background-color: #1f2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F8FaF8;
+}
+
+.top-links {
+    color: #E5E7EB;  
+}
+
+
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8
+}
+
+.header-subtext{
+  font-size: 18px;
+  color: #E5E7EB;  
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.images-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 15px;
+}
