@@ -2,7 +2,7 @@
 
 .header-container {
 background-color: #1f2937;
-height: 500;
+height: 525px;
 color: #F8FaF8;
 padding: 10px 5px 10px 5px;
 }
@@ -10,7 +10,7 @@ padding: 10px 5px 10px 5px;
 .header-logo {
     font-size: 24px;
     font-weight: 700;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-top {
@@ -34,10 +34,29 @@ li {
 
 /* All above is set */
 
-h1{
+.header-main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.header-text, .header-image-container {
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+}
+
+
+.header-image {
+    width: 200px;
+    height: auto;
+
+}
+
+.header-bold{
     font-size: 48px;
-    font-weight: extra-bold;
-    color: #F9FAF8
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -46,6 +65,15 @@ h1{
   color: #E5E7EB;  
 }
 
+.top-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
 
 img{
     width: 100px;
